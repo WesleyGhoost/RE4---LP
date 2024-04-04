@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resident Evil 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+  <div class="message_mobile">
+    <h1>Olá forasteiro!</h1>
+    <h1>Este site não está disponivel para dispositivos móveis!</h1>
+    <h1>Acesse-o em dispositivos com telas maiores para poder desfrutar do mesmo.</h1>
+  </div>
+
+  <nav id="nav">
+    <ul>
+      <li id="scroll-top">TOP</li>
+      <li id="scroll-topics">TÓPICOS</li>
+      <li id="scroll-trailer">TRAILER</li>
+      <li id="scroll-about">SOBRE</li>
+      <li id="scroll-character">PERSONAGEM</li>
+      <li id="scroll-location">LOCALIZAÇÃO</li>
+      <li id="scroll-gameplay">JOGABILIDADE</li>
+      <li id="scroll-dlc">DLC</li>
+      <li id="scroll-product">COMPRAR</li>
+    </ul>
+  </nav>
+
+  <section id="intro">
+    <img src="/logos/logo-re.svg" alt="" width="809" height="150">
+    <h2>Já Disponível</h2>
+    <div>
+      <img src="/logos/ps5_logo.svg" alt="">
+      <img src="/logos/ps4_logo.svg" alt="">
+      <img src="/logos/xboxxs_logo.svg" alt="">
+      <img src="/logos/steam_logo.svg" alt="">
+    </div>
+  </section>
+
+  <section class="intro-dlc" id="intro-dlc">
+    <h5>Conteúdo Baixável</h5>
+    <div>
+      <img id="scroll-separate_ways" src="/imgs/intro-separateways.jpg">
+      <img id="scroll-mercenaries" src="/imgs/intro-mercenaries.jpg">
+      <img id="scroll-vr" src="/imgs/intro-vrmode-re.jpg">
+    </div>
+  </section>
+
+  <section id="demo">
+    <a href="https://www.residentevil.com/re4/pt-br/topics/demo/">
+      <img src="/logos/re4_demo_title.png" alt="">
+      <div>
+        <h2>Demo Já Disponível!</h2>
+        <p class="p-demo">Sem limite de tempo; sem limite de partidas.</p>
+      </div>
+    </a>
+  </section>
+
+  <section id="topics">
+    <h2>TÓPICOS</h2>
+    <div class="topics-container">
+      <figure>
+        <img src="/imgs/topics_gold-edition.jpg" alt="">
+        <figcaption>
+          Resident Evil 4 Gold Edition já está disponível e inclui o modo história adicional Caminhos Distintos e o
+          conjunto de DLC extra!
+        </figcaption>
+        <h3>20/10</h3>
+      </figure>
+      <figure id="scroll_topic-vr-mode">
+        <img src="/imgs/topics_vr-mode.jpg" alt="">
+        <figcaption>
+          Resident Evil 4 VR Mode para PSVR2 está disponível! Não possui o jogo principal? Sem problemas! Teste a demo
+          gratuita antes
+          de comprar o jogo completo!
+        </figcaption>
+        <h3>7/12</h3>
+      </figure>
+      <a href="update.html">
+        <figure>
+          <img src="/imgs/topics_update.jpg" alt="">
+          <figcaption>Resident Evil 4 - Atualização de Jogo</figcaption>
+          <h3>7/12</h3>
+        </figure>
+      </a>
+      <a href="https://www.capcom-games.com/apple/pt-br/">
+        <figure>
+          <img src="/imgs/topics_apple.jpg" alt="">
+          <figcaption>Resident Evil 4 está chegando nos dispositivos Apple no fim desse ano!</figcaption>
+          <h3>12/9</h3>
+        </figure>
+      </a>
+      <a href="https://www.capcom-games.com/tgs/pt-br/">
+        <figure>
+          <img src="/imgs/topics_tgs.jpg" alt="">
+          <figcaption>Presença confirmada na Tokyo Game Show 2023!</figcaption>
+          <h3>16/8</h3>
+        </figure>
+      </a>
+      <figure id="scroll_topic-mercenaries">
+        <img src="/imgs/topics_mercenaries.jpg" alt="">
+        <figcaption>O modo de jogo adicional "Os Mercenários" já está disponível como DLC gratuito!</figcaption>
+        <h3>6/4</h3>
+      </figure>
+      <figure id="scroll_topic-product">
+        <img src="/imgs/topics_pre-order.jpg" alt="">
+        <figcaption>A pré-venda de Resident Evil 4 já está disponível!</figcaption>
+        <h3>20/10</h3>
+      </figure>
+      <a href="https://www.residentevil.com/showcase/pt-br/">
+        <figure>
+          <img src="/imgs/topics_showcase.jpg" alt="">
+          <figcaption>O vídeo arquivado do Resident Evil Showcase transmitido em 21 de outubro já está disponível!
+          </figcaption>
+          <h3>20/10</h3>
+        </figure>
+      </a>
+    </div>
+  </section>
+
+  <section id="trailer">
+    <h2>TRAILER</h2>
+    <div class="trailer-container">
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-gold">
+        <figure>
+          <img src="/imgs/trailer_gold-edition.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 Gold Edition - Trailer de Lançamento</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-vr">
+        <figure>
+          <img src="/imgs/trailer_vr-mode-launch.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 VR Mode - Trailer de Lançamento</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-separate">
+        <figure>
+          <img src="/imgs/trailer_separate-ways.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 Separate Ways - Trailer de Lançamento</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-reveal-dlc">
+        <figure>
+          <img src="/imgs/trailer_dlc-revelation.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 - Trailer de Revelação do DLC</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-vr-teaser">
+        <figure>
+          <img src="/imgs/trailer_vr-mode.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 VR Mode - Teaser Trailer</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-mercenaries">
+        <figure>
+          <img src="/imgs/trailer_mercenaries.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 - The Mercenaries Trailer</figcaption>
+        </figure>
+      </button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-launch">
+        <figure>
+          <img src="/imgs/trailer_launch.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 - Trailer de Lançamento</figcaption>
+        </figure>
+      </button>
+      <a href="https://www.youtube.com/watch?v=q2iqM5RRhMU&start=2013">
+        <figure>
+          <img src="/imgs/trailer_spotlight.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Capcom Spotlight | 2023.3.10</figcaption>
+        </figure>
+      </a>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-third">
+        <figure>
+          <img src="/imgs/trailer_third.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 - 3º Trailer</figcaption>
+        </figure>
+      </button>
+      <button>
+        <figure type="button" data-bs-toggle="modal" data-bs-target="#modal-second">
+          <img src="/imgs/trailer_second.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Resident Evil 4 - 2º Trailer</figcaption>
+        </figure>
+      </button>
+      <a href="https://www.youtube.com/watch?v=YnQfJvSf4BI&start=3456">
+        <figure>
+          <img src="/imgs/trailer_showcase.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Capcom Showcase 2022</figcaption>
+        </figure>
+      </a>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#modal-announcement">
+        <figure>
+          <img src="/imgs/trailer_announcement.jpg" alt="">
+          <img class="youtube-icon" src="/imgs/icons/youtube.png" alt="">
+          <figcaption>Trailer de Anúncio</figcaption>
+        </figure>
+      </button>
+    </div>
+  </section>
+
+  <div id="modal-gold" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/KtxuN93e0ps?si=AIvjKf9ruBBpNT_5" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-vr" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/Pfn8M1dKTWo?si=1XAfyNX3uxhhDRhv" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-separate" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/LHe_FY1OCsc?si=QJHBhuXW-nYQ7fwO" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-reveal-dlc" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/p64mGfwGqrA?si=2Cp1eonvoi0R89jW" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-vr-teaser" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/fhEycOmuZ3s?si=lzrZR_jTaHE9WLe9" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-mercenaries" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/jTfqTNE6nG4?si=JDCYlnmIU1eJqXqk" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-launch" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/6SKxK-mf81k?si=arVwrdjOfgme6OLI" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-third" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/hfUssEhfg0k?si=WGKbFXcJwLHMnWsp" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-second" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/JT2puUySAXk?si=X9_MdntYz2aRg7--" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-announcement" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.youtube.com/embed/135k8MFJ_nM?si=IjoucIlSjUCTDqcq" title="YouTube video player"
+            width="100%" height="95%" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div>
+      <h2>SOBRE</h2>
+      <h1>Sobreviver é</h1>
+      <h1>só o começo</h1>
+      <p>Resident Evil 4 é um remake do Resident Evil 4 original de 2005.</p>
+      <p>Reimaginado para 2023 para trazer horror de sobrevivência de última geração.</p>
+      <p>
+        Resident Evil 4 preserva a essência do jogo original enquanto apresenta jogabilidade modernizada,enredo
+        reimaginado e gráficos vívidamente detalhados para fazer deste o mais recente jogo de horror de
+        sobrevivência, onde a vida e a morte, o terror e a catarse se cruzam.
+      </p>
+    </div>
+    <div>
+      <img class="imgs-about" src="/imgs/about_img-1.jpg" alt="">
+      <img class="imgs-about" src="/imgs/about_img-02.jpg" alt="">
+      <img class="imgs-about" src="/imgs/about_img-03.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="story">
+    <h2 class="h2-story">HISTÓRIA</h2>
+    <p class="p-story">Seis anos se passaram desde o desastre biológico em Raccoon City.</p>
+    <p class="p-story">
+      Leon S. Kennedy, um dos sobreviventes do incidente, foi recrutado como agente,respondendo diretamente ao
+      presidente dos Estados Unidos.
+    </p>
+    <p class="p-story">
+      Com a experiência de várias missões em suas costas, Leon é enviado para resgatar a filha sequestrada
+      dopresidente.
+    </p>
+    <p class="p-story">Ele a rastreia até uma vila europeia isolada, onde há algo terrivelmente errado com os aldeões.
+    </p>
+    <p class="p-story">E a cortina se abre nessa história de um ousado resgate e horror de sobrevivência extenuante.</p>
+  </section>
+
+  <section id="character">
+    <div class="character_intro">
+      <h2>PERSONAGEM</h2>
+      <div class="character_thumbs">
+        <div class="thumb-leon">Leon S. Kennedy</div>
+        <div class="thumb-ashley">Ashley Graham</div>
+        <div class="thumb-luis">Luis Serra</div>
+        <div class="thumb-ada">Ada Wong</div>
+        <div class="thumb-ganad">Aldeões</div>
+        <div class="thumb-chainsaw">Aldeão com Motoserra</div>
+        <div class="thumb-bitores">Bitores Méndes</div>
+        <div class="thumb-salazar">Ramón Salazar</div>
+        <div class="thumb-hunnigan">Ingrid Hunnigan</div>
+        <div class="thumb-merchant">Mercador</div>
+        <div class="thumb-krauser">Jack Krauser</div>
+        <div class="thumb-saddler">Osmund Saddler</div>
+        <div class="thumb-fanatic">Fanático</div>
+      </div>
+    </div>
+    <div id="character_info-carousel" class="carousel slide px-5 character_info-carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active character-item">
+          <img src="/imgs/character_img-leon-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Leon S.Kennedy</h5>
+            <p>
+              Leon S. Kennedy, um policial novato quando o incidente de Raccoon City ocorreu há 6 anos,
+              tornou-se um agente trabalhando diretamente sob o presidente.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-ashley-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Ashley Graham</h5>
+            <p>
+              A filha desaparecida do presidente dos Estados Unidos. Leon parte para uma vila isolada na Europa em busca
+              dela.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-luis-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Luis Serra</h5>
+            <p>
+              Leon se depara com este homem misterioso na vila. Ele parece saber algo sobre o paradeiro da filha
+              do presidente dos Estados Unidos, mas será que ele é confiável...?
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-ada.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Ada Wong</h5>
+            <p>
+              Juntou-se a Leon durante o Incidente em Raccoon City, mas desapareceu durante a destruição do laboratório
+              subterrâneo da Umbrella. Ela reaparece subitamente, mas seu verdadeiro objetivo permanece um mistério.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-ganad-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Aldeões(Ganado)</h5>
+            <p>
+              Uma vez humanos, os Ganado veneram o líder de um culto religioso, e agora só há loucura em seus olhos...
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-chainsaw.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Aldeão com Motoserra</h5>
+            <p>
+              Um Aldeão insano que carrega uma arma brutal, um único golpe pode levar cabeças aos ares.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-bitores.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Bitores Méndes</h5>
+            <p>
+              O chefe da vila que Leon investiga. Assim como os outros habitantes locais, ele venera o líder de um culto
+              religioso.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-salazar-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Ramón Salazar</h5>
+            <p>
+              O oitavo líder da família Salazar, que tem governado a região onde Ashley parece ter desaparecido.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-hunnigan.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Ingrid Hunnigan</h5>
+            <p>
+              Uma coordenadora de missões que dá suporte aos agentes do governo dos Estados Unidos.
+              Ela será o contato de Leon e o ajudará nesta missão.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-merchant.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Mercador</h5>
+            <p>
+              Um misterioso comerciante de armas que aparece em vários locais. Ele não apenas compra e vende armas e
+              itens,
+              mas também é capaz de aprimorar as armas que já estão em posse de Leon, bem como trocar por mercadorias
+              especiais.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-krauser-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Jack Krauser</h5>
+            <p>
+              Um ex-membro das forças militares dos Estados Unidos.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-saddler-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block ">
+            <h5>Osmund Saddler</h5>
+            <p>
+              O atual líder de Los Iluminados, um poderoso culto religioso que há muito existe na região.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item character-item">
+          <img src="/imgs/character_img-ezalot.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption character-caption text-start d-none d-md-block">
+            <h5>Fanático</h5>
+            <p>
+              Espalhando o banho de sangue ao comando do seu lorde Saddler, o Fanático está por trás dos principais
+              sacrifícios e oferendas do culto Los Iluminados.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev character-control-left control" type="button"
+        data-bs-target="#character_info-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next character-control-right control" type="button"
+        data-bs-target="#character_info-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="location">
+    <div class="location_info">
+      <h2>LOCALIZAÇÃO</h2>
+      <div class="location_p-container">
+        <p>Uma vila europeia isolada cercada por uma floresta.</p>
+        <p>Há rumores de ser o lar de um culto misterioso.</p>
+      </div>
+    </div>
+    <div id="location-carousel" class="carousel slide location-carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="0" class="active bg-danger"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="1" class="bg-danger"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="2" class="bg-danger"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="3" class="bg-danger"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="4" class="bg-danger"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="5" class="bg-danger"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#location-carousel" data-bs-slide-to="6" class="bg-danger"
+          aria-label="Slide 7"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imgs/location_img-01.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-02.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-03.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-04.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-05.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-06.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/location_img-07.jpg" class="d-block mx-auto" width="75%" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#location-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#location-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="gameplay">
+    <div class="gameplay_info">
+      <h2 class="gameplay_info-h2">JOGABILIDADE</h2>
+      <div class="gameplay_info-p-container">
+        <p>
+          Abra caminho entre os horrores ao seu redor utilizando contra-ataques armados, golpes corpo a corpo
+          e a nova manobra de aparar com a faca, além de várias outras ações à sua disposição. Garanta a sua
+          sobrevivência com táticas inteligentes, bom gerenciamento de itens e melhorias estratégicas de
+          armas.
+        </p>
+      </div>
+    </div>
+    <div id="gameplay_action-carousel" class="carousel slide carousel-fade">
+      <div class="carousel-indicators gameplay_action-carousel-indicators">
+        <button type="button" data-bs-target="#gameplay_action-carousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#gameplay_action-carousel" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#gameplay_action-carousel" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imgs/gameplay_action_img-01.jpg" class="d-block gameplay_action-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_action-carousel-caption">
+            <h5>AÇÃO</h5>
+            <h4>Perspectiva em Terceira Pessoa</h4>
+            <p>
+              A perspectiva da câmera é em terceira pessoa, como você se lembra do Resident Evil 4 original. Com
+              gráficos atualizados, a sensação de isolamento e estranheza do jogo original se intensifica ainda
+              mais. Os controles foram refinados para padrões modernos que aprimoram a jogabilidade, enfatizando a
+              luta do Leon pela sobrevivência.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/gameplay_action_img-02.jpg" class="d-block gameplay_action-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_action-carousel-caption">
+            <h5>AÇÃO</h5>
+            <h4>Combate a Distância</h4>
+            <p>
+              Mire e atire através da Perspectiva em Terceira Pessoa. Mire bem e escolha seus alvos com cuidado
+              para economizar munição.
+            </p>
+            <p>
+              Enfraqueça seus inimigos atirando na cabeça e nas pernas, dando abertura para ataques corpo a corpo,
+              e execute-os sem consumir munição.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/gameplay_action_img-03.jpg" class="d-block gameplay_action-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_action-carousel-caption">
+            <h5>AÇÃO</h5>
+            <h4>Ações com a Faca</h4>
+            <p>
+              Além de atacar, você agora pode aparar ataquese finalizar inimigos caídos utilizando a sua faca.
+            </p>
+            <p>
+              Porém, qualquer ação com a faca reduzirá sua durabilidade. Só use quando for realmente necessário;
+              é melhor guardá-la para circunstâncias extremas, ou você pode acabar ficando sem ter como se defender.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gameplay_resource-carousel" class="carousel slide carousel-fade">
+      <div class="carousel-indicators gameplay_resource-carousel-indicators">
+        <button type="button" data-bs-target="#gameplay_resource-carousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#gameplay_resource-carousel" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#gameplay_resource-carousel" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#gameplay_resource-carousel" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imgs/gameplay_resource_img-03.jpg" class="d-block gameplay_resource-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_resource-carousel-caption">
+            <h5>GESTÃO DE RECURSOS</h5>
+            <h4>Maleta</h4>
+            <p>
+              Carregue armas, munições, ervas curativas e outros itens úteis na maleta.
+            </p>
+            <p>
+              O gerenciamento eficaz dos itens no espaço limitado fornecido é essencial para a sua sobrevivência
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/gameplay_resource_img-04.jpg" class="d-block gameplay_resource-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_resource-carousel-caption">
+            <h5>GESTÃO DE RECURSOS</h5>
+            <h4>Criação de Itens</h4>
+            <p>
+              Além de combinar ervas curativas, agora você pode criar munição e outros itens úteis.
+            </p>
+            <p>
+              Se a sua maleta estiver ficando cheia, criar itens é uma boa maneira de liberar espaço.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/gameplay_resource_img-01.jpg" class="d-block gameplay_resource-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_resource-carousel-caption">
+            <h5>GESTÃO DE RECURSOS</h5>
+            <h4>O Mercador</h4>
+            <p>
+              Compre armas e itens, melhore suas armas ou negocie mercadorias especiais na loja do Mercador.
+            </p>
+            <p>
+              O mercador consegue até consertar facas quebradas.
+            </p>
+            <p>*(Aplica-se apenas à faca padrão do Leon.)*</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/imgs/gameplay_resource_img-02.jpg" class="d-block gameplay_resource-carousel-img" width="50%"
+            alt="...">
+          <div class="carousel-caption gameplay_resource-carousel-caption">
+            <h5>GESTÃO DE RECURSOS</h5>
+            <h4>Negociação</h4>
+            <p>
+              Itens que não podem ser comprados com dinheiro normal podem trocados por gemas.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="dlc">
+    <div class="dlc_title">
+      <h2 class="dlc_title-h2">CONTEÚDO BAIXÁVEL</h2>
+      <div class="dlc_title-p-container">
+        <p>
+          O modo adicional frenético Os Mercenários será acompanhado de Caminhos Distintos,
+          um novo modo de história que estrela Ada como a personagem principal!
+        </p>
+        <p>
+          Você também poderá curtir a história principal no PlayStation®VR2 em Resident Evil 4 VR Mode,
+          que chegará no último trimestre do ano!
+        </p>
+      </div>
+    </div>
+    <div id="separate-ways" class="separate-ways">
+      <div class="separate-ways_dlc-sit">
+        <h5>DLC Pago</h5>
+        <h5>Já Disponível</h5>
+      </div>
+      <div class="separate-ways_title">
+        <img src="/logos/separateways_logo.png" alt="">
+        <p>
+          Essa missão exige sigilo. Falhar não é uma opção.
+        </p>
+        <p>
+          Jogue como Ada Wong nesse modo adicional e testemunhe os eventos de Resident Evil 4 pela perspectiva dela,
+          o que responderá a perguntas que ficaram em aberto na história principal.
+        </p>
+      </div>
+      <div class="separate-ways_story_infos">
+        <div id="separate-ways_story-carousel" class="carousel slide w-50 separate-ways_story-carousel"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#separate-ways_story-carousel" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#separate-ways_story-carousel" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#separate-ways_story-carousel" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/imgs/separateways-story_img-01.jpg" class="d-block mx-auto w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imgs/separateways-story_img-02.jpg" class="d-block mx-auto w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imgs/separateways-story_img-03.jpg" class="d-block mx-auto w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="separate-ways_story_info">
+          <h3>HISTÓRIA</h3>
+          <p>
+            Antes mesmo de Leon S. Kennedy chegar àquele vilarejo amaldiçoado, ela estava lá.
+            Sua missão? Obter o segredo mais sombrio do culto: o Âmbar.
+          </p>
+          <p>
+            Agora, ela precisa lidar com uma ameaça desconhecida que a devora de dentro pra fora, um cúmplice de passado
+            sombrio e segundas intenções, além de um reencontro com o homem que ela menos esperava: Leon S. Kennedy.
+          </p>
+          <p>
+            Por que ela aceitou essa missão?
+            E que caminho ela trilhará enquanto estiver nas sombras da investigação de Leon sobre o rapto da filha do
+            presidente?
+          </p>
+        </div>
+      </div>
+      <div class="separate-ways_gameplay_infos">
+        <div class="separate-ways_gameplay_info">
+          <h3>CAMINHOS DISTINTOS</h3>
+          <h3>Jogabilidade</h3>
+          <p>
+            Além da ação já vista no jogo base com Leon, é possível utilizar uma arma
+            de gancho para alcançar vários locais. A arma também pode ser usada para eliminar inimigos
+            de longe e executar golpes corpo a corpo a distância. Isso possibilita uma experiência de
+            jogo mais empolgante e frenética.
+          </p>
+        </div>
+        <div id="separate-ways_gameplay-carousel" class="carousel slide w-50 separate-ways_gameplay-carousel"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#separate-ways_gameplay-carousel" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#separate-ways_gameplay-carousel" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#separate-ways_gameplay-carousel" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/imgs/separateways-gameplay_img-01.jpg" class="d-block w-100 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imgs/separateways-gameplay_img-02.jpg" class="d-block w-100 mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imgs/separateways_gameplay_img-03.jpg" class="d-block w-100 mx-auto" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mercenaries" class="mercenaries">
+      <div class="mercenaries_dlc-sit">
+        <div>
+          <h5>DLC Gratuito</h5>
+          <h5>Já Disponível</h5>
+        </div>
+        <p>Atualização liberada em 21/09/2023</p>
+      </div>
+      <div class="mercenaries_title">
+        <img src="/logos/mercenaries_logo.png" alt="">
+        <p>
+          A pedidos, o modo de jogo adicional "Os Mercenários" está de volta e disponível como DLC gratuito!
+          Curta a jogabilidade dinâmica que surpreendeu os fãs na época e retorna para surpreendê-los novamente!
+        </p>
+      </div>
+      <div class="mercenaries_update">
+        <div class="update_release">
+          <h3>ATUALIZAÇÃO</h3>
+          <p class="update_release-p">Atualização liberada em 21/09/2023</p>
+        </div>
+        <div class="update_details">
+          <h5>
+            Ada Wong e Albert Wesker são os novos personagens do modo Os Mercenários!
+          </h5>
+          <p>
+            *Não é necessário ter o DLC Caminhos Distintos para comprar esta atualização.
+          </p>
+          <p>
+            *Alguns personagens serão desbloqueados somente se certas condições no jogo forem cumpridas.
+          </p>
+        </div>
+      </div>
+      <div class="mercenaries_characters">
+        <div class="characters_title">
+          <h3>PERSONAGENS</h3>
+          <p class="characters_title-p">Personagens Jogáveis</p>
+        </div>
+        <div class="characters">
+          <figure>
+            <img src="/imgs/mercenaries_img-leon.png" alt="">
+            <figcaption>Leon S. Kennedy</figcaption>
+          </figure>
+          <figure>
+            <img src="/imgs/mercenaries_img-luis.png" alt="">
+            <figcaption>Luis Serra</figcaption>
+          </figure>
+          <figure>
+            <img src="/imgs/mercenaries_img-krauser.png" alt="">
+            <figcaption>Jack Krauser</figcaption>
+          </figure>
+          <figure>
+            <img src="/imgs/mercenaries_img-hunk.png" alt="">
+            <figcaption>Hunk</figcaption>
+          </figure>
+          <figure>
+            <img src="/imgs/mercenaries_img-ada.png" alt="">
+            <figcaption>Ada Wong</figcaption>
+          </figure>
+          <figure>
+            <img src="/imgs/mercenaries_img-wesker.png" alt="">
+            <figcaption>Albert Wesker</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div id="vr-mode" class="vr-mode">
+      <div class="vr-mode_dlc-sit">
+        <h5>DLC Gratuito</h5>
+        <h5>Já Disponível</h5>
+      </div>
+      <div class="vr-mode_title">
+        <img src="/logos/vrmode_logo-re.png" alt="">
+        <img src="/logos/psvr2_b.png" alt="">
+        <div>
+          <p>
+            Assuma o papel de Leon S. Kennedy e entre em uma missão de resgate terrível e assustadora,
+            com a chegada de Resident Evil 4 para o PlayStation®VR2 como um DLC gratuito.
+          </p>
+          <a href="https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RDLC000000028">
+            PlayStation®Store | Baixe aqui
+          </a>
+        </div>
+      </div>
+      <div class="vr-mode_demo">
+        <h3>
+          Jogue a <strong>demo</strong> gratuita para testar antes de comprar o jogo completo!
+        </h3>
+        <p>
+          Uma demo gratuita para todos será disponibilizada na PS Store no mesmo dia!
+        </p>
+        <p>
+          Experimente a sequência de abertura do jogo e a galeria de tiro; sinta o quão intuitivo
+          é o manejo de armas cada vez que recarregar um tiro em VR!
+        </p>
+        <a href="https://store.playstation.com/pt-br/product/UP0102-PPSA18999_00-RE4RDEMOVR000000">
+          PlayStation®Store | Download da Demo
+        </a>
+      </div>
+      <div class="vr-mode_infos">
+        <div class="vr-mode_block-1">
+          <div id="vr-mode_first-carousel" class="carousel slide w-50 vr-mode_first-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators vr-mode_first-indicator">
+              <button type="button" data-bs-target="#vr-mode_first-carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#vr-mode_first-carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#vr-mode_first-carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ms-5">
+              <div class="carousel-item active">
+                <img src="/imgs/vrmode01_img-01.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/imgs/vrmode01_img-02.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/imgs/vrmode01_img-03.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="vr-mode_info-1">
+            <h3>RESIDENT EVIL 4 VR MODE</h3>
+            <h3>Vivencie a imersão em VR</h3>
+            <p>
+              Curta o jogo com gráficos detalhados em 360°. Além disso, o aúdio 3D realista
+              eleva ainda mais a experiência imersiva do jogo.
+            </p>
+          </div>
+        </div>
+        <div class="vr-mode_block-2">
+          <div class="vr-mode_info-2">
+            <h3>MANEJO REALISTA DE ARMAS</h3>
+            <p>
+              Com os controles Sense do PlayStation®VR2, você agora pode ver todas as características das armas,
+              como as pistolas, escopetas, rifles e a sua faca. Aprecie a experiência realista de entrar em ação.
+            </p>
+          </div>
+          <div id="vr-mode_second-carousel" class="carousel slide w-50 vr-mode_second-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators vr-mode_second-indicator">
+              <button type="button" data-bs-target="#vr-mode_second-carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#vr-mode_second-carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#vr-mode_second-carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ms-5">
+              <div class="carousel-item active">
+                <img src="/imgs/vrmode02_img-01.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/imgs/vrmode02_img-02.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/imgs/vrmode02_img-03.jpg" class="d-block mx-auto w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vr-mode_details">
+        <h5>
+          <em>-</em> Resident Evil 4 VR Mode(Conteúdo baixável de Resident Evil 4 no PlayStation®5)
+        </h5>
+        <div>
+          <p>Sistema: PlayStation®VR2 (PlayStation®5)</p>
+          <p>Gênero: Survival Horror</p>
+          <p>Data de Lançamento: 8 de dezembro de 2023</p>
+          <p>Preço: Gratuito *</p>
+        </div>
+        <p>
+          *Para acessar este conteúdo, você deve possuir o jogo Resident Evil 4.
+        </p>
+        <p>
+          *Este DLC não é compatível com os modos Caminhos Distintos e Os Mercenários.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="product_title">
+      <h1>PRODUTO</h1>
+      <h2>Já Disponível</h2>
+    </div>
+    <div class="product_box">
+      <h4><em>1</em> Escolha uma edição</h4>
+      <div class="product_versions">
+        <button id="standard">Edição Padrão</button>
+        <button id="gold">Gold Edition</button>
+        <button id="separate">Separate Ways</button>
+      </div>
+      <h4><em>2</em> Escolha uma plataforma</h4>
+      <div class="product_platforms">
+        <button id="ps5" style="background-color: rgb(186, 0, 0);">
+          <img src="/logos/ps5_logo.svg" alt="">
+        </button>
+        <button id="ps4">
+          <img src="/logos/ps4_logo.svg" alt="">
+        </button>
+        <button id="xbox">
+          <img src="/logos/xboxxs_logo.svg" alt="">
+        </button>
+        <button id="steam">
+          <img src="/logos/steam_logo.svg" alt="">
+        </button>
+      </div>
+      <div class="product_edition">
+        <div class="edition_title">
+          <h1 id="edition_title">Edição Padrão</h1>
+        </div>
+        <div class="edition_details">
+          <div class="col">
+            <img id="edition_img" width="100%" height="100%" src="/imgs/standard_img-ps5.jpg" alt="">
+          </div>
+          <div class="col">
+            <div class="edition_digital" id="edition_digital">
+              <h2> <em>-</em> Versão Digital</h2>
+              <a id="store_link"
+                href="https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RMAINGAME0000">
+                <h3 id="store">PlayStation Store</h3>
+              </a>
+            </div>
+            <div class="edition_contents" id="edition_contents">
+              <h3 id="content_title">[Edição Padrão Conteúdos Incluídos]</h3>
+              <ul id="content_list">
+                <li>Resident Evil 4</li>
+              </ul>
+              <button class="content_button-separate" id="content_button-separate">
+                Veja aqui para mais detalhes sobre Caminhos Distintos
+              </button>
+              <button class="content_button-package" id="content_button-package" data-bs-toggle="modal" data-bs-target="#modal-dlc_pack">
+                Veja aqui para mais detalhes sobre o Pacote de DLC Extra
+              </button>
+            </div>
+            <div class="edition_upgrade" id="edition_upgrade">
+              <button id="upgrade_button">
+                <a href="https://www.playstation.com/ja-jp/support/games/upgrade-ps4-game-to-ps5-version/">Como Fazer o
+                  Upgrade do Jogo no Playstation 4 para o Playstation 5
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="edition_extras-details">
+          <p id="extras-details_first-modified-para"></p>
+          <p id="extras-details_second-modified-para"></p>
+          <p id="extras-details_third-modified-para"></p>
+        </div>
+        <div id="edition_early-rewards">
+          <div class="early-rewards_title">
+            <h3>Bônus de Pré-venda</h3>
+            <h5>(Edição Padrão)</h5>
+          </div>
+          <div class="early-rewards_rewards">
+            <img src="/imgs/early-rewards_img.jpg" alt="">
+            <div class="early-rewards_details">
+              <h4>・Maleta: "Ouro"</h4>
+              <h4>・Amuleto: "Munição para Pistola"</h4>
+              <p>Maleta e amuleto com efeitos especiais no jogo.</p>
+              <p>
+                Nota: A maleta pode ser alterada selecionando "Máquina de Escrever" e depois
+                "Personalizar Maleta".
+              </p>
+              <p>
+                O amuleto pode ser alterado selecionando "Máquina de Escrever" e depois "Personalizar
+                Maleta".
+              </p>
+            </div>
+          </div>
+          <div class="early-rewards_note">
+            <div class="note_block-1">
+              <p>Nota: Você deve ter o jogo completo de Resident Evil 4 para acessar este conteúdo.</p>
+              <p>O conteúdo pode ser baixado na loja onde sua versão digital foi comprada.</p>
+              <p>A compra de conteúdo lhe dará a licença para ele das versões PlayStation 5 e PlayStation
+                4.</p>
+              <p>Comprar conteúdo para a versão do PlayStation®4 e atualizar o jogo para a versão do
+                PlayStation®5 exigirá que você baixe novamente esse conteúdo com a mesma conta da
+                PlayStation™Network.</p>
+              <p>Bônus especiais limitados podem estar disponíveis separadamente no futuro.</p>
+            </div>
+            <div class="note_block-2">
+              <p>Para quem comprar a Versão Digital:</p>
+              <p>São elegíveis todos que comprarem a versão PlayStation®4, PlayStation®5 até 23 de Março de 2023, 23:59
+                da manhã (horário de Brasília).</p>
+              <p>São elegíveis todos que comprarem a versão Steam até 24 de Março de 2023, 0:59 da manhã
+                (horário de Brasília).</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="product_info">
+        <p><em>-</em> Informações Importantes</p>
+        <p>*Conteúdos e especificações podem sofrer alterações sem aviso prévio.</p>
+        <p>*As imagens são usadas para fins ilustrativos.</p>
+        <p>*Resident Evil 4 Deluxe Edition não está mais disponível para compra.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal-dlc_pack" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="dlc_pack-title row text-start mb-4 w-75">
+            <h3 class="text-danger">PRODUTO</h3>
+            <h2 class="text-white">Pacote de DLC Extra</h2>
+          </div>
+          <div class="dlc_pack-row row w-75 text-center">
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Trajes de Leon e Ashley: "Casual"</p>
+              <img src="./imgs/dlc_img-01.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Trajes de Leon e Ashley: "Romântico"</p>
+              <img src="./imgs/dlc_img-02.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Traje e Filtro de Leon: "Herói"</p>
+              <img src="./imgs/dlc_img-03.png" alt="" width="250" height="200">
+            </div>
+          </div>
+          <div class="dlc_pack-row row w-75 text-center">
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Traje e Filtro de Leon: "Vilão"</p>
+              <img src="./imgs/dlc_img-04.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Arma Especial: "Sentinel Nine"</p>
+              <img src="./imgs/dlc_img-05.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Arma Especial: "Chacoalha-Crânio"</p>
+              <img src="./imgs/dlc_img-06.png" alt="" width="250" height="200">
+            </div>
+          </div>
+          <div class="dlc_pack-row row w-75 text-center">
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Mapa do Tesouro: Expansão</p>
+              <img src="./imgs/dlc_img-07.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Acessório de Leon: "Óculos de Sol (Esporte)"</p>
+              <img src="./imgs/dlc_img-08.png" alt="" width="250" height="200">
+            </div>
+            <div class="col border border-secondary text-center p-4">
+              <p class="text-white">Mudança de Trilha Sonora "Ver. Original"</p>
+              <img src="./imgs/dlc_img-09.png" alt="" width="250" height="200">
+            </div>
+          </div>
+          <div class="dlc_pack-notes row border border-secondary p-4 w-75 text-white text-start">
+            <p>
+              Observação: você deve estar conectado à PlayStation™Network para resgatar conteúdos.
+            </p>
+            <p>
+              A compra de conteúdo lhe dará a licença ao mesmo nas versões PlayStation 5 e PlayStation 4.
+            </p>
+            <p>
+              Comprar conteúdo para a versão PlayStation®4 e depois atualizar o jogo para a versão PlayStation®5 exigirá 
+              que você baixe novamente esse conteúdo com a mesma conta para a PlayStation™Network.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="others">
+    <div class="others_block-1">
+      <div>
+        <img src="/logos/logo-re.svg" alt="" width="180" height="80">
+        <div>
+          <p>Gênero: Survival Horror</p>
+          <p>Jogadores: 1</p>
+        </div>
+        <div>
+          <p>Data de Lançamento: Já Disponível</p>
+          <p>Classificação Indicativa: 18 ANOS</p>
+        </div>
+        <img src="/imgs/classification_18.png" alt="">
+      </div>
+      <div>
+        <p>
+          Leon’s brown sheepskin leather bomber jacket appears with permission from Schott NYC.
+        </p>
+        <a href="https://www.flaticon.com/br/icones-gratis/youtube" title="youtube ícones">
+          Youtube ícones criados por Freepik - Flaticon
+        </a>
+        <button>
+          <a href="https://game.capcom.com/manual/re4/">Manual Online</a>
+        </button>
+      </div>
+    </div>
+    <div class="others_block-2">
+      <button>
+        <a href="https://game.capcom.com/residentevil/en/four.html">
+          <img src="/imgs/renet_bnr-re.jpg" alt="">
+        </a>
+      </button>
+      <button>
+        <a href="https://www.residentevil.com/7-re2-re3/pt-br/">
+          <img src="/imgs/7re2re3_bnr-re.jpg" alt="">
+        </a>
+      </button>
+      <button>
+        <a href="https://www.residentevil.com/village/ge/pt-br/">
+          <img src="/imgs/village-ge_bnr-re.jpg" alt="">
+        </a>
+      </button>
+      <button>
+        <a href="https://game.capcom.com/residentevil/en/">
+          <img src="/imgs/portal_bnr-re.jpg" alt="">
+        </a>
+      </button>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <img src="/logos/capcom_logo.png" alt="">
+      <a href="https://www.capcom-games.com/en/terms/">Terms</a>
+      <a href="https://www.capcomusa.com/privacy/">Privacy Policy</a>
+      <a href="https://www.residentevil.com/cookie-policy.html">Cookie Policy</a>
+    </div>
+    <div>
+      <p>
+        All <a href="https://www.capcom-games.com/en/legal/tm/">trademarks</a> referenced herein are the
+        properties of
+        their respective owners.
+      </p>
+      <h5>©CAPCOM</h5>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/reveal.js"></script>
+  <script src="./js/scrollTo.js"></script>
+  <script src="./js/product.js"></script>
+</body>
+
+</html>
