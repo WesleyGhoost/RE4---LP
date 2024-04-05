@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ps4Button.style.backgroundColor = 'black'
         xboxButton.style.backgroundColor = 'black'
         steamButton.style.backgroundColor = 'black'
-        editionImg.src = "/imgs/standard_img-ps5.jpg"
+        editionImg.src = "./imgs/standard_img-ps5.jpg"
         editionContents.style.height = 'auto'
         editionUpgrade.style.display = "flex"
         editionRewards.style.display = "flex"
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
         storeLink.href = "https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RMAINGAME0000"
 
         if (goldButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-ps5.jpg"
+            editionImg.src = "./imgs/ge_img-ps5.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4GOLDEDITION00'
             contentList.appendChild(secondItem)
             contentList.appendChild(thirdItem)
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (standardButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-ps5.jpg"
+            editionImg.src = "./imgs/standard_img-ps5.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RDXEDITION000'
             contentList.removeChild(secondItem)
             editionExtras.style.display = 'flex'
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (separateWaysButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/separate-ways_img.jpg"
+            editionImg.src = "./imgs/separate-ways_img.jpg"
             editionRewards.style.display = "none"
             editionTitle.innerHTML = "Separate Ways"
             editionUpgrade.style.display = 'none'
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ps5Button.style.backgroundColor = 'black'
         xboxButton.style.backgroundColor = 'black'
         steamButton.style.backgroundColor = 'black'
-        editionImg.src = "/imgs/standard_img-ps4.jpg"
+        editionImg.src = "./imgs/standard_img-ps4.jpg"
         editionContents.style.height = 'auto'
         editionUpgrade.style.display = "flex"
         editionRewards.style.display = "flex"
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
         storeLink.href = "https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RMAINGAME0000"
 
         if (goldButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-ps4.jpg"
+            editionImg.src = "./imgs/ge_img-ps4.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4GOLDEDITION00'
             contentList.appendChild(secondItem)
             contentList.appendChild(thirdItem)
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (standardButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-ps4.jpg"
+            editionImg.src = "./imgs/standard_img-ps4.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RDXEDITION000'
             contentList.removeChild(secondItem)
             editionExtras.style.display = 'flex'
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (separateWaysButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/separate-ways_img.jpg"
+            editionImg.src = "./imgs/separate-ways_img.jpg"
             editionRewards.style.display = "none"
             editionTitle.innerHTML = "Separate Ways"
             editionUpgrade.style.display = 'none'
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ps5Button.style.backgroundColor = 'black'
         steamButton.style.backgroundColor = 'black'
         editionContents.style.height = '70%'
-        editionImg.src = "/imgs/standard_img-xboxxs.jpg"
+        editionImg.src = "./imgs/standard_img-xboxxs.jpg"
         editionUpgrade.style.display = "none"
         editionRewards.style.display = "none"
         store.innerHTML = "Xbox Games Store"
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
         storeLink.href = "https://www.xbox.com/pt-br/games/store/resident-evil-4/9N7JCPPCPN37/"
 
         if (goldButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-xboxxs.jpg"
+            editionImg.src = "./imgs/ge_img-xboxxs.jpg"
             editionContents.style.height = '75%'
             storeLink.href = 'https://www.xbox.com/pt-BR/games/store/resident-evil-4-gold-edition/9P2G4PSMPBR7/'
             contentList.appendChild(secondItem)
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (standardButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-xboxxs.jpg"
+            editionImg.src = "./imgs/standard_img-xboxxs.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RDXEDITION000'
             contentList.removeChild(secondItem)
             editionExtras.style.display = 'flex'
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (separateWaysButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/separate-ways_img.jpg"
+            editionImg.src = "./imgs/separate-ways_img.jpg"
             editionRewards.style.display = "none"
             editionTitle.innerHTML = "Separate Ways"
             editionUpgrade.style.display = 'none'
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ps5Button.style.backgroundColor = 'black'
         xboxButton.style.backgroundColor = 'black'
         editionContents.style.height = '70%'
-        editionImg.src = "/imgs/standard_img-steam.jpg"
+        editionImg.src = "./imgs/standard_img-steam.jpg"
         editionUpgrade.style.display = "none"
         editionRewards.style.display = "none"
         store.innerHTML = "Steam"
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {
         storeLink.href = "https://store.steampowered.com/agecheck/app/2050650/"
 
         if (goldButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-steam.jpg"
+            editionImg.src = "./imgs/ge_img-steam.jpg"
             editionContents.style.height = '75%'
             storeLink.href = 'https://store.steampowered.com/agecheck/app/2050650/'
             contentList.appendChild(secondItem)
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (standardButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-steam.jpg"
+            editionImg.src = "./imgs/standard_img-steam.jpg"
             storeLink.href = 'https://store.playstation.com/pt-br/product/UP0102-PPSA07411_00-RE4RDXEDITION000'
             contentList.removeChild(secondItem)
             editionExtras.style.display = 'flex'
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (separateWaysButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/separate-ways_img.jpg"
+            editionImg.src = "./imgs/separate-ways_img.jpg"
             editionRewards.style.display = "none"
             editionTitle.innerHTML = "Separate Ways"
             editionUpgrade.style.display = 'none'
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
         extrasDetailsThirdP.style.display = 'none'
 
         if (ps5Button.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-ps5.jpg"
+            editionImg.src = "./imgs/standard_img-ps5.jpg"
             editionRewards.style.display = "flex"
             editionDigital.style.height = 'auto'
             editionUpgrade.style.display = 'flex'
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (ps4Button.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-ps4.jpg"
+            editionImg.src = "./imgs/standard_img-ps4.jpg"
             editionRewards.style.display = "flex"
             editionDigital.style.height = 'auto'
             editionUpgrade.style.display = 'flex'
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (xboxButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-xboxxs.jpg"
+            editionImg.src = "./imgs/standard_img-xboxxs.jpg"
             editionRewards.style.display = "none"
             editionDigital.style.height = 'auto'
             editionExtras.style.display = 'flex'
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (steamButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/standard_img-steam.jpg"
+            editionImg.src = "./imgs/standard_img-steam.jpg"
             editionRewards.style.display = "none"
             editionDigital.style.height = 'auto'
             editionExtras.style.display = 'flex'
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contentButtonPackage.style.display = 'flex'
 
         if (ps5Button.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-ps5.jpg"
+            editionImg.src = "./imgs/ge_img-ps5.jpg"
             editionRewards.style.display = "flex"
             editionDigital.style.height = 'auto'
             editionUpgrade.style.display = 'flex'
@@ -370,7 +370,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (ps4Button.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-ps4.jpg"
+            editionImg.src = "./imgs/ge_img-ps4.jpg"
             editionRewards.style.display = 'flex'
             editionDigital.style.height = 'auto'
             editionUpgrade.style.display = 'flex'
@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (xboxButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-xboxxs.jpg"
+            editionImg.src = "./imgs/ge_img-xboxxs.jpg"
             editionRewards.style.display = "none"
             editionDigital.style.height = 'auto'
             editionExtras.style.display = 'flex'
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         else if (steamButton.style.backgroundColor == 'rgb(186, 0, 0)') {
-            editionImg.src = "/imgs/ge_img-steam.jpg"
+            editionImg.src = "./imgs/ge_img-steam.jpg"
             editionRewards.style.display = "none"
             editionDigital.style.height = 'auto'
             editionExtras.style.display = 'flex'
@@ -452,7 +452,7 @@ document.addEventListener('DOMContentLoaded', function () {
         goldButton.style.backgroundColor = 'black'
         standardButton.style.backgroundColor = 'black'
         separateWaysButton.style.backgroundColor = 'rgb(186, 0, 0)'
-        editionImg.src = "/imgs/separate-ways_img.jpg"
+        editionImg.src = "./imgs/separate-ways_img.jpg"
         editionRewards.style.display = "none"
         editionTitle.innerHTML = "Separate Ways"
         editionDigital.style.height = '100%'

@@ -27,7 +27,7 @@ $desktop-large-max: 1200px;
 }
 
 body {
-    background-image: url('/imgs/body_bg-1.png');
+    background-image: url('./imgs/body_bg-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -638,28 +638,28 @@ body {
             }
 
             .thumb-leon {
-                background-image: url('/imgs/character_thumb-leon.jpg');
+                background-image: url('./imgs/character_thumb-leon.jpg');
                 filter: grayscale(0%);
             }
 
             .thumb-ashley {
-                background-image: url('/imgs/character_thumb-ashley.jpg');
+                background-image: url('./imgs/character_thumb-ashley.jpg');
             }
 
             .thumb-luis {
-                background-image: url('/imgs/character_thumb-luis.jpg');
+                background-image: url('./imgs/character_thumb-luis.jpg');
             }
 
             .thumb-ada {
-                background-image: url('/imgs/character_thumb-ada.jpg');
+                background-image: url('./imgs/character_thumb-ada.jpg');
             }
 
             .thumb-ganad {
-                background-image: url('/imgs/character_thumb-ganad.jpg');
+                background-image: url('./imgs/character_thumb-ganad.jpg');
             }
 
             .thumb-chainsaw {
-                background-image: url('/imgs/character_thumb-chainsaw.jpg');
+                background-image: url('./imgs/character_thumb-chainsaw.jpg');
             }
 
             .thumb-bitores {
@@ -667,27 +667,27 @@ body {
             }
 
             .thumb-salazar {
-                background-image: url('/imgs/character_thumb-salazar.jpg');
+                background-image: url('./imgs/character_thumb-salazar.jpg');
             }
 
             .thumb-hunnigan {
-                background-image: url('/imgs/character_thumb-hunnigan.jpg');
+                background-image: url('./imgs/character_thumb-hunnigan.jpg');
             }
 
             .thumb-merchant {
-                background-image: url('/imgs/character_thumb-merchant.jpg');
+                background-image: url('./imgs/character_thumb-merchant.jpg');
             }
 
             .thumb-krauser {
-                background-image: url('/imgs/character_thumb-krauser.jpg');
+                background-image: url('./imgs/character_thumb-krauser.jpg');
             }
 
             .thumb-saddler {
-                background-image: url('/imgs/character_thumb-saddler.jpg');
+                background-image: url('./imgs/character_thumb-saddler.jpg');
             }
 
             .thumb-fanatic {
-                background-image: url('/imgs/character_thumb-ezalot.jpg');
+                background-image: url('./imgs/character_thumb-ezalot.jpg');
             }
 
             @include respond-to-notebook-screen {
@@ -1124,7 +1124,7 @@ body {
     }
 
     .separate-ways {
-        background-image: url('/imgs/separateways_bg.png');
+        background-image: url('./imgs/separateways_bg.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-color: rgba(16, 16, 16, 0.945);
@@ -1306,7 +1306,7 @@ body {
     }
 
     .mercenaries {
-        background-image: url('/imgs/mercenaries_bg.png');
+        background-image: url('./imgs/mercenaries_bg.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-color: rgba(16, 16, 16, 0.945);
@@ -1557,7 +1557,7 @@ body {
     }
 
     .vr-mode {
-        background-image: url('/imgs/vrmode_bg.png');
+        background-image: url('./imgs/vrmode_bg.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-color: rgba(16, 16, 16, 0.945);

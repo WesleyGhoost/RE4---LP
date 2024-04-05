@@ -3,9 +3,9 @@ window.addEventListener('scroll', function() {
     let aboutElement = document.getElementById('about')
 
     if(scrollPosition >= aboutElement.offsetTop) {
-        document.body.style.backgroundImage = "url('/imgs/body_bg-2.jpg')"
+        document.body.style.backgroundImage = "url('./imgs/body_bg-2.jpg')"
     } else {
-        document.body.style.backgroundImage = "url('/imgs/body_bg-1.png')"
+        document.body.style.backgroundImage = "url('./imgs/body_bg-1.png')"
     }
 })
 
