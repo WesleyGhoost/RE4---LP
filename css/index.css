@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./imgs/body_bg-1.png");
+  background-image: url("/imgs/body_bg-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -616,44 +616,44 @@ body .message_mobile h1 {
   }
 }
 #character .character_intro .character_thumbs .thumb-leon {
-  background-image: url("./imgs/character_thumb-leon.jpg");
+  background-image: url("/imgs/character_thumb-leon.jpg");
   filter: grayscale(0%);
 }
 #character .character_intro .character_thumbs .thumb-ashley {
-  background-image: url("./imgs/character_thumb-ashley.jpg");
+  background-image: url("/imgs/character_thumb-ashley.jpg");
 }
 #character .character_intro .character_thumbs .thumb-luis {
-  background-image: url("./imgs/character_thumb-luis.jpg");
+  background-image: url("/imgs/character_thumb-luis.jpg");
 }
 #character .character_intro .character_thumbs .thumb-ada {
-  background-image: url("./imgs/character_thumb-ada.jpg");
+  background-image: url("/imgs/character_thumb-ada.jpg");
 }
 #character .character_intro .character_thumbs .thumb-ganad {
-  background-image: url("./imgs/character_thumb-ganad.jpg");
+  background-image: url("/imgs/character_thumb-ganad.jpg");
 }
 #character .character_intro .character_thumbs .thumb-chainsaw {
-  background-image: url("./imgs/character_thumb-chainsaw.jpg");
+  background-image: url("/imgs/character_thumb-chainsaw.jpg");
 }
 #character .character_intro .character_thumbs .thumb-bitores {
   background-image: url("/imgs/character_thumb-bitores.jpg");
 }
 #character .character_intro .character_thumbs .thumb-salazar {
-  background-image: url("./imgs/character_thumb-salazar.jpg");
+  background-image: url("/imgs/character_thumb-salazar.jpg");
 }
 #character .character_intro .character_thumbs .thumb-hunnigan {
-  background-image: url("./imgs/character_thumb-hunnigan.jpg");
+  background-image: url("/imgs/character_thumb-hunnigan.jpg");
 }
 #character .character_intro .character_thumbs .thumb-merchant {
-  background-image: url("./imgs/character_thumb-merchant.jpg");
+  background-image: url("/imgs/character_thumb-merchant.jpg");
 }
 #character .character_intro .character_thumbs .thumb-krauser {
-  background-image: url("./imgs/character_thumb-krauser.jpg");
+  background-image: url("/imgs/character_thumb-krauser.jpg");
 }
 #character .character_intro .character_thumbs .thumb-saddler {
-  background-image: url("./imgs/character_thumb-saddler.jpg");
+  background-image: url("/imgs/character_thumb-saddler.jpg");
 }
 #character .character_intro .character_thumbs .thumb-fanatic {
-  background-image: url("./imgs/character_thumb-ezalot.jpg");
+  background-image: url("/imgs/character_thumb-ezalot.jpg");
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   #character .character_intro .character_thumbs {
@@ -1103,7 +1103,7 @@ body .message_mobile h1 {
   }
 }
 #dlc .separate-ways {
-  background-image: url("./imgs/separateways_bg.png");
+  background-image: url("/imgs/separateways_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: rgba(16, 16, 16, 0.945);
@@ -1278,7 +1278,7 @@ body .message_mobile h1 {
   }
 }
 #dlc .mercenaries {
-  background-image: url("./imgs/mercenaries_bg.png");
+  background-image: url("/imgs/mercenaries_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: rgba(16, 16, 16, 0.945);
@@ -1508,7 +1508,7 @@ body .message_mobile h1 {
   font-weight: 400;
 }
 #dlc .vr-mode {
-  background-image: url("./imgs/vrmode_bg.png");
+  background-image: url("/imgs/vrmode_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: rgba(16, 16, 16, 0.945);
